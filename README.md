@@ -1,25 +1,13 @@
-# haskell-compression
-
-In this repository, the compression algorithms run length and huffman are implemented in the Haskell programming language. Also IO is used to read and write to text files. 
-
-## Run-length
-Run-length encoding is the replacement of repeating patterns in data by the number of repeats plus what had to be repeated.
-
-### Usage
+# How to use run-length
 Compress with run-length:
 ```
 ./rlcompress original.txt compressed.txt
 ```
 Decompress with run-length:
-
 ```
 ./rldecompress compressed.txt original-restored.txt
 ```
-
-## Huffman
-Huffmancoding is a method to compress data consisting of a row of symbols optimally and losslessly. 
-
-### Usage
+# How to use huffman
 Compress with huffman:
 
 ```
